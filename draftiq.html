@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DraftIQ AI Board</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0c0f14;
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: #11151c;
+  border-bottom: 1px solid #222;
+}
+
+.topbar h1 {
+  font-size: 18px;
+}
+
+.nav span {
+  margin-left: 20px;
+  color: #00ff88;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #11151c;
+  padding: 15px;
+  border-right: 1px solid #222;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+  color: #00ff88;
+  font-size: 14px;
+}
+
+.filter {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #1a1f29;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.board {
+  flex: 1;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #222;
+}
+
+th {
+  color: #aaa;
+  font-size: 12px;
+}
+
+tr:hover {
+  background: #1a1f29;
+}
+
+.grade {
+  background: #00c26e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.header-text {
+  margin-bottom: 15px;
+  color: #aaa;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <h1>2026 NFL Draft Guide | AI Big Board</h1>
+  <div class="nav">
+    <span>AI BOARD</span>
+    <span>PLAYERS</span>
+    <span>MODEL</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="sidebar">
+    <h3>FILTERS</h3>
+    <div class="filter">Position</div>
+    <div class="filter">School</div>
+    <div class="filter">Age</div>
+    <div class="filter">Athleticism</div>
+    <div class="filter">Production</div>
+  </div>
+
+  <div class="board">
+
+    <div class="header-text">
+      AI-generated draft board using historical NFL success data, production metrics, and athletic testing.
+    </div>
+
+    <table>
+      <tr>
+        <th>POS</th>
+        <th>PLAYER</th>
+        <th>SCHOOL</th>
+        <th>AI GRADE</th>
+        <th>ROUND</th>
+        <th>COMP</th>
+      </tr>
+
+      <tr><td>WR</td><td>Makai Lemon</td><td>USC</td><td><span class="grade">6.88</span></td><td>1 (Mid)</td><td>Amon-Ra St. Brown</td></tr>
+      <tr><td>EDGE</td><td>David Bailey</td><td>Texas Tech</td><td><span class="grade">6.80</span></td><td>1 (Late)</td><td>Chop Robinson</td></tr>
+      <tr><td>CB</td><td>Jermod McCoy</td><td>Tennessee</td><td><span class="grade">6.77</span></td><td>1 (Late)</td><td>Desmond Trufant</td></tr>
+      <tr><td>CB</td><td>Mansoor Delane</td><td>LSU</td><td><span class="grade">6.75</span></td><td>1 (Late)</td><td>Shaquill Griffin</td></tr>
+      <tr><td>OT</td><td>Monroe Freeling</td><td>Georgia</td><td><span class="grade">6.74</span></td><td>1 (Late)</td><td>Brian O'Neill</td></tr>
+      <tr><td>S</td><td>Dillon Thieneman</td><td>Oregon</td><td><span class="grade">6.66</span></td><td>1 (Late)</td><td>Jevon Holland</td></tr>
+      <tr><td>CB</td><td>Avieon Terrell</td><td>Clemson</td><td><span class="grade">6.63</span></td><td>1 (Late)</td><td>Asante Samuel Jr.</td></tr>
+      <tr><td>TE</td><td>Kenyon Sadiq</td><td>Oregon</td><td><span class="grade">6.57</span></td><td>1 (Late)</td><td>Dustin Keller</td></tr>
+      <tr><td>WR</td><td>KC Concepcion</td><td>Texas A&M</td><td><span class="grade">6.49</span></td><td>2 (Early)</td><td>Percy Harvin</td></tr>
+      <tr><td>OT</td><td>Caleb Lomu</td><td>Utah</td><td><span class="grade">6.46</span></td><td>2 (Early)</td><td>Dan Moore Jr.</td></tr>
+      <tr><td>OT</td><td>Kadyn Proctor</td><td>Alabama</td><td><span class="grade">6.43</span></td><td>2 (Early)</td><td>Cam Robinson</td></tr>
+      <tr><td>LB</td><td>CJ Allen</td><td>Georgia</td><td><span class="grade">6.42</span></td><td>2 (Early)</td><td>Cedric Gray</td></tr>
+      <tr><td>WR</td><td>Omar Cooper Jr.</td><td>Indiana</td><td><span class="grade">6.34</span></td><td>2 (Early)</td><td>CeeDee Lamb</td></tr>
+      <tr><td>DL</td><td>Kayden McDonald</td><td>Ohio State</td><td><span class="grade">6.30</span></td><td>2 (Early)</td><td>Dalvin Tomlinson</td></tr>
+
+    </table>
+
+  </div>
+
+</div>
+
+</body>
+</html>
